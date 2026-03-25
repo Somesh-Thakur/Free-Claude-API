@@ -16,8 +16,16 @@
       "dest": "/server.js"
     },
     {
-      "src": "/(.*)",
+      "src": "/(css|js|images|icons)/(.*)",
+      "dest": "/public/$1/$2"
+    },
+    {
+      "src": "/(style\\.css|app\\.js|manifest\\.json|sw\\.js)",
       "dest": "/public/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/index.html"
     }
   ]
 }
