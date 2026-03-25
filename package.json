@@ -1,0 +1,35 @@
+{
+  "name": "free-claude-api",
+  "version": "1.0.0",
+  "description": "A free Claude 3.5 Sonnet AI chat interface and OpenAI-compatible API bridge powered by Puter.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "chatbot",
+    "puter",
+    "openai",
+    "api",
+    "bridge",
+    "free"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@heyputer/puter.js": "^2.2.14",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
